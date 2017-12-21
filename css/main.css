@@ -1,0 +1,10 @@
+[class*="span"]{
+	background: grey;
+	border-radius: 7px;
+}
+
+
+.heading{}
+.title{
+	margin-top: 30vh;
+}
