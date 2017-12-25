@@ -1,10 +1,101 @@
-[class*="span"]{
-	background: grey;
-	border-radius: 7px;
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px !important;
+  }
 }
 
+body{
+	font-family: Roboto Mono, monospace;
+	line-height: 1.2;
+	font-size: 24px;
+	color: rgb(37, 37, 37);
+}
 
-.heading{}
+.cursive{
+	font-style: italic;
+}
+.I_shoot_almost_everthing_but_here_are_some_of_m {
+  font-size: 23.333px;
+  font-family: "Antartida";
+  color: rgb(37, 37, 37);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: scale(0.91, 1);
+  -webkit-transform: scale(0.91, 1);
+  -ms-transform: scale(0.91, 1);
+  position: absolute;
+  left: 525.155px;
+  top: 1607.137px;
+  z-index: 55;
+}
+
+/*переопределение правил Bootstrap*/
+.container{
+	padding: 0px;
+}
+
+.heading{
+	background: url(../img/stock-photo.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+.nav-bar{
+	padding-top: 60px;
+	text-align: center;	
+}
+
+.nav-bar__menu:nth-child(4) {
+    font-weight: bold;
+}
+
+.nav-bar__logo{
+}
+
 .title{
 	margin-top: 30vh;
+}
+
+.content{
+	background-color: #f6be29;
+	text-align: center;	
+	margin-top: -12vh;
+}
+
+.social_text{
+	display: inline;
+}
+
+.intro{
+	margin-top: 160px;
+}
+
+.intro_links{
+	font-size: 0.83em;
+}
+
+.portfolio_card{
+	text-align: center;	
+	padding: 0px;
+}
+
+.feedback{
+}
+
+.hire-me{
+	background-color: #f2b410;	
+	text-align: center;	
+}
+
+.follow-me_text{
+	text-align: center;	
+}
+
+.footer{
+	background-color: #e4a90c;
+	text-align: center;
+	color: #fdfaf1;
 }

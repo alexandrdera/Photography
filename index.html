@@ -4,29 +4,106 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Photography</title>
-<!--		<link href="./css/bootstrap-responsive.css" rel="stylesheet">
--->		<link href="./css/bootstrap.css" rel="stylesheet">
+		<link href="./css/bootstrap.css" rel="stylesheet">
+		<!-- <link href="./css/bootstrap-theme.css" rel="stylesheet"> -->
 		<link href="./css/main.css" rel="stylesheet">
 	</head>
 	<body>
 		<header class="heading">
-			<div class="container">
-				<div class="nav-bar row">
-					<div class="nav-bar__logo span2">логотип</div>
-					<div class="nav-bar__menu span4 offset6">навигация</div>
-				</div>
-				<div class="title row">
-					<div class="span7 offset5">
+			<section class="container">
+				<!-- Static nav-bar -->
+				<nav class="nav-bar">
+					<img class="nav-bar__logo pull-left" src="./img/heart296copy.png"></img>
+					<a class="nav-bar__menu col-md-2 pull-right" href="#">CONTACT</a>
+					<a class="nav-bar__menu col-md-2 pull-right" href="#">PORTFOLIO</a> 
+					<a class="nav-bar__menu col-md-2 pull-right" href="#">HOME</a> 
+				</nav>
+				<!-- / nav-bar -->
+				<div class="title">
+					<div class="col-md-7 col-md-offset-5">
 						<h2>Hi, I am Tilak Gupta</h2>
 						<h1>Welcome to my world.</h1>
 					</div>
 				</div>
-				<div class="row">
-					<div class="social span7 offset5">значки соц сетей</div>
+				<!-- Social icons -->
+				<div class="social col-md-7 col-md-offset-5">
+					<h5 class="social_text">FIND ME</h5> 
+					<img class="social-icon" src="./img/google-plus-circle-black@2x.png"></img>
+					<img class="social-icon" src="./img/facebook-circle-black@2x.png"></img>
+					<img class="social-icon" src="./img/twitter-circle-black@2x.png"></img>
+					<img class="social-icon" src="./img/pinterest-black@2x.png"></img>
+					<img class="social-icon" src="./img/dribbble-black@2x.png"></img>
+					<img class="social-icon" src="./img/behance-black@2x.png"></img>
+				</div>
+				<!-- / Social icons -->
+			</section>
+		</header>
+		<section class="content container">
+			<div class="intro">
+				<img class="intro_profile-pic" src="./img/Profile-pic.png"></img>
+				<h4 class="intro_user">TILAK GUPTA</h4>
+				<div class="intro_links">
+					<a href="#">PHOTOGRAPHER //</a>
+					<a href="#">TRAVELLER //</a>
+					<a href="#">FOODIE //</a>
+					<a href="#">EXPLORER</a>
 				</div>
 			</div>
-		</header>
-		<section></section>
-		<footer></footer>
+			<div class="portfolio">
+				<h4 class="cursive">I shoot almost everthing but here are some of my expertise.</h4>
+				<div class="portfolio_card col-md-3">
+					<p>FOOD</p>
+					<img class="portfolio_card-img" src="./img/card-1.jpg"></img>
+				</div>
+				<div class="portfolio_card col-md-3">
+					<p>PEOPLE</p>
+					<img class="portfolio_card-img" src="./img/card-2.jpg"></img>
+				</div>
+				<div class="portfolio_card col-md-3">
+					<p>CITIES</p>
+					<img class="portfolio_card-img" src="./img/card-3.jpg"></img>
+				</div>
+				<div class="portfolio_card col-md-3">
+					<p>FASHION</p>
+					<img class="portfolio_card-img" src="./img/card-4.jpg"></img>
+				</div>
+			</div>
+			<section class="feedback cursive">
+				<h3>Don’t take my word.</h3>
+				<h4>See what others are saying about my work.</h4>
+				<div class="feedback_client col-md-4">
+					<img class="feedback_client-img" src="./img/feedback_client.png"></img>
+					<h5 class="feedback_client-name">Rebecca Mayers</h5>
+					<h6 class="feedback_client-location">Santiago</h6>					
+				</div>
+				<div class="feedback_client col-md-4">
+					<img class="feedback_client-img" src="./img/feedback_client.png"></img>
+					<h5 class="feedback_client-name">Mike Ross</h5>					
+					<h6 class="feedback_client-location">New York</h6>					
+				</div>
+				<div class="feedback_client col-md-4">
+					<img class="feedback_client-img" src="./img/feedback_client.png"></img>
+					<h5 class="feedback_client-name">Sanjana Mathur</h5>
+					<h6 class="feedback_client-location">Mumbai</h6>					
+				</div>
+			</section>
+		</section>
+		<section class="hire-me container">
+			<h2 class="hire-me_text">HIRE ME
+				<img class="hire-me_img" src="./img/mail59.png"></img>
+			</h2>
+		</section>
+		<section class="follow-me container">
+			<h4 class="follow-me_text">FOLLOW ME</h4>		
+			<img class="hire-me_img col-md-1 col-md-offset-3" src="./img/google-plus-circle-black@2x-big.png"></img>
+			<img class="hire-me_img col-md-1" src="./img/facebook-circle-black@2x-big.png"></img>
+			<img class="hire-me_img col-md-1" src="./img/twitter-circle-black@2x-big.png"></img>
+			<img class="hire-me_img col-md-1" src="./img/pinterest-black@2x-big.png"></img>
+			<img class="hire-me_img col-md-1" src="./img/dribbble-black@2x-big.png"></img>
+			<img class="hire-me_img col-md-1" src="./img/behance-black@2x-big.png"></img>
+		</section>
+		<footer class="footer container">
+			<h6>© All Rights Reserved 2014-15</h6>
+		</footer>
 	</body>
 </html>
